@@ -42,25 +42,28 @@ const Navbar = () => {
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]'>
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href='/'>
+                    href='https://www.linkedin.com/in/anders-youssef-b884121b6/'
+                    target="_blank">
                         Linkedin <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1B2C36]'>
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href='/'>
+                    href='https://github.com/Andazu'
+                    target="_blank">
                         Github <FaGithub size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#B54600]'>
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href='/'>
+                    href='mailto:andersmazen@gmail.com'>
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#362D1B]'>
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href='/'>
+                    href='/'
+                    target="_blank">
                         Resume <BsFillPersonFill size={30} />
                     </a>
                 </li>
