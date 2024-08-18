@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-site/static/css/main.4ac33ab2.css",
+    "main.js": "/portfolio-react-site/static/js/main.396b5e80.js",
+    "static/media/6502.jpg": "/portfolio-react-site/static/media/6502.b8ad367978912e420dcc.jpg",
+    "static/media/sw2.png": "/portfolio-react-site/static/media/sw2.c784e90052261422695b.png",
+    "static/media/livingroom.png": "/portfolio-react-site/static/media/livingroom.ee6b753025749d26e1d5.png",
+    "static/media/ekstrabladet.png": "/portfolio-react-site/static/media/ekstrabladet.22aac067d4cc52bc5b87.png",
+    "static/media/logo-white.png": "/portfolio-react-site/static/media/logo-white.e88e5f282c7b2a6e1197.png",
+    "index.html": "/portfolio-react-site/index.html",
+    "main.4ac33ab2.css.map": "/portfolio-react-site/static/css/main.4ac33ab2.css.map",
+    "main.396b5e80.js.map": "/portfolio-react-site/static/js/main.396b5e80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ac33ab2.css",
+    "static/js/main.396b5e80.js"
+  ]
+}
