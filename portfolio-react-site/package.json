@@ -1,7 +1,6 @@
 {
   "name": "portfolio-react-site",
   "version": "0.1.0",
-  "homepage": "https://andazu.github.io/Portfolio-site",
   "private": true,
   "homepage": "https://andazu.github.io/",
   "dependencies": {
