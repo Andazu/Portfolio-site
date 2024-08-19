@@ -11,6 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
 import Logo from "../assets/logo-white.png";
 import { Link } from "react-scroll";
+import CV from "../assets/CV.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -100,7 +101,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="pl-5 flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/anders-youssef-b884121b6/"
               target="_blank"
             >
@@ -109,7 +110,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1B2C36]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="pl-5 flex justify-between items-center w-full text-gray-300"
               href="https://github.com/Andazu"
               target="_blank"
             >
@@ -118,7 +119,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#B54600]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="pl-5 flex justify-between items-center w-full text-gray-300"
               href="mailto:andersmazen@gmail.com"
             >
               Email <HiOutlineMail size={30} />
@@ -126,9 +127,10 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#362D1B]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              className="pl-5 flex justify-between items-center w-full text-gray-300"
+              href={CV}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonFill size={30} />
             </a>
