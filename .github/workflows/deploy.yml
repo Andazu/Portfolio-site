@@ -22,8 +22,13 @@ jobs:
         run: npm install
         working-directory: ./portfolio-react-site
 
+      - name: Add missing Babel plugin
+        run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
+        working-directory: ./portfolio-react-site
+
       - name: Build the project
-        run: npm run build
+        run: |
+          CI=false npm run build
         working-directory: ./portfolio-react-site
 
       - name: Deploy to GitHub Pages
