@@ -1,0 +1,17 @@
+/* Remove the background color and border from the arrow container */
+.carousel .control-arrow {
+  background: none;
+  border: none;
+}
+
+/* Optionally, you can also adjust the positioning of the arrows */
+.carousel .control-arrow.control-prev,
+.carousel .control-arrow.control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Ensure the arrow container does not have extra padding */
+.carousel .control-arrow:before {
+  display: none; /* Hides the arrow background/shadow */
+}
