@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.ceef3894.css",
-    "main.js": "/Portfolio-site/static/js/main.f86d3262.js",
+    "main.css": "/Portfolio-site/static/css/main.45f44c0c.css",
+    "main.js": "/Portfolio-site/static/js/main.1af99be6.js",
     "static/media/6502.jpg": "/Portfolio-site/static/media/6502.b8ad367978912e420dcc.jpg",
     "static/media/sw2.png": "/Portfolio-site/static/media/sw2.c784e90052261422695b.png",
     "static/media/CV.pdf": "/Portfolio-site/static/media/CV.aab2eb517191b8d27546.pdf",
@@ -9,11 +9,11 @@
     "static/media/ekstrabladet.png": "/Portfolio-site/static/media/ekstrabladet.22aac067d4cc52bc5b87.png",
     "static/media/logo-white.png": "/Portfolio-site/static/media/logo-white.e88e5f282c7b2a6e1197.png",
     "index.html": "/Portfolio-site/index.html",
-    "main.ceef3894.css.map": "/Portfolio-site/static/css/main.ceef3894.css.map",
-    "main.f86d3262.js.map": "/Portfolio-site/static/js/main.f86d3262.js.map"
+    "main.45f44c0c.css.map": "/Portfolio-site/static/css/main.45f44c0c.css.map",
+    "main.1af99be6.js.map": "/Portfolio-site/static/js/main.1af99be6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceef3894.css",
-    "static/js/main.f86d3262.js"
+    "static/css/main.45f44c0c.css",
+    "static/js/main.1af99be6.js"
   ]
 }
