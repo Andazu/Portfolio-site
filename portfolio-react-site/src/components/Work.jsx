@@ -39,12 +39,12 @@ const Work = () => {
                   Ekstra Bladet Recommender Project
                 </p>
               </div>
-              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-auto px-4 sm:px-8 md:px-12 lg:px-24">
                 <img
                   src={sw6}
-                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="w-full md:w-1/2 h-auto object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-28 lg:pt-10 justify-center">
+                <div className="w-full md:w-1/2 flex flex-col text-left lg:pl-12 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2024
                   </p>
@@ -56,7 +56,7 @@ const Work = () => {
                     complete system and displayed a personalised news feed to
                     users on an overhauled mobile application.
                   </p>
-                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
+                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-8">
                     <a
                       href={sw6Doc}
                       target="_blank"
@@ -76,20 +76,24 @@ const Work = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Project 5 */}
-            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+        {/* Project 5*/}
+        <div className="justify-center w-full h-full pt-20">
+          <div className="max-w-[1200px] mx-auto">
+            <div className="slide flex flex-col h-full py-6">
               <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   The Educado Initiative
                 </p>
               </div>
-              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-auto px-4 sm:px-8 md:px-12 lg:px-24">
                 <img
                   src={sw5}
-                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="w-full md:w-1/2 h-auto object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-28 lg:pt-10 justify-center">
+                <div className="w-full md:w-1/2 flex flex-col text-left lg:pl-12 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Fall 2023
                   </p>
@@ -102,7 +106,7 @@ const Work = () => {
                     in Brazil. The project is now in consideration to be funded
                     by the United Nations Development Programme (UNDP).
                   </p>
-                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
+                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-8">
                     <a
                       href={sw5Doc}
                       target="_blank"
@@ -122,20 +126,24 @@ const Work = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Project 4 */}
-            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+        {/* Project 4*/}
+        <div className="justify-center w-full h-full pt-20">
+          <div className="max-w-[1200px] mx-auto">
+            <div className="slide flex flex-col h-full py-6">
               <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   Language Development, Assembly 6502
                 </p>
               </div>
-              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-auto px-4 sm:px-8 md:px-12 lg:px-24">
                 <img
                   src={sw4}
-                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="w-full md:w-1/2 h-auto object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-28 lg:pt-10 justify-center">
+                <div className="w-full md:w-1/2 flex flex-col text-left lg:pl-12 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2023
                   </p>
@@ -148,7 +156,7 @@ const Work = () => {
                     traditional compiler such as lexical analysis, syntax
                     analysis, semantic analysis, and code generation.
                   </p>
-                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
+                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-8">
                     <a
                       href={sw4Doc}
                       target="_blank"
@@ -168,20 +176,24 @@ const Work = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Project 3 */}
-            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+        {/* Project 3*/}
+        <div className="justify-center w-full h-full pt-20">
+          <div className="max-w-[1200px] mx-auto">
+            <div className="slide flex flex-col h-full py-6">
               <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   Task Management Software Solution
                 </p>
               </div>
-              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-auto px-4 sm:px-8 md:px-12 lg:px-24">
                 <img
                   src={sw3}
-                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="w-full md:w-1/2 h-auto object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
+                <div className="w-full md:w-1/2 flex flex-col text-left lg:pl-12 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Fall 2022
                   </p>
@@ -192,7 +204,7 @@ const Work = () => {
                     The application is primarily written in Java and relies on a
                     relational database (SQLite).
                   </p>
-                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
+                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-8">
                     <a
                       href={sw3Doc}
                       target="_blank"
@@ -212,20 +224,24 @@ const Work = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Project 2 */}
-            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+        {/* Project 2*/}
+        <div className="justify-center w-full h-full pt-20">
+          <div className="max-w-[1200px] mx-auto">
+            <div className="slide flex flex-col h-full py-6">
               <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   Smart Device Management
                 </p>
               </div>
-              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-auto px-4 sm:px-8 md:px-12 lg:px-24">
                 <img
                   src={sw2}
-                  className="max-h-[25svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="w-full md:w-1/2 h-auto object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
+                <div className="w-full md:w-1/2 flex flex-col text-left lg:pl-12 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2022
                   </p>
@@ -236,7 +252,7 @@ const Work = () => {
                     devices being managed and controlled from one central
                     location while providing relevant information.
                   </p>
-                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
+                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-8">
                     <a
                       href={sw2Doc}
                       target="_blank"
@@ -256,20 +272,24 @@ const Work = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Project 1 */}
-            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+        {/* Project 1*/}
+        <div className="justify-center w-full h-full pt-20">
+          <div className="max-w-[1200px] mx-auto">
+            <div className="slide flex flex-col h-full py-6">
               <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   A Digital Fridge and Recipe Generator Written in C
                 </p>
               </div>
-              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-auto px-4 sm:px-8 md:px-12 lg:px-24">
                 <img
                   src={sw1}
-                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="w-full md:w-5/12 h-auto object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
+                <div className="w-full md:w-1/2 flex flex-col text-left lg:pl-12 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Fall 2021
                   </p>
@@ -278,7 +298,7 @@ const Work = () => {
                     users ingredients locally and uses it to generate recipes in
                     order to reduce their waste of food.
                   </p>
-                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
+                  <div className="flex flex-row p-8 justify-center w-full h-full space-x-8">
                     <a
                       href={sw1Doc}
                       target="_blank"
