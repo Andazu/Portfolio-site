@@ -18,7 +18,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-white/5 backdrop-blur border-b border-white/10 text-gray-300">
+    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-white/5 backdrop-blur border-b border-white/10 text-gray-300 z-10">
       <div>
         <img src={Logo} alt="logo" className="h-10 pl-2" />
       </div>
@@ -157,7 +157,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[300%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[40vh] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]">
             <a
