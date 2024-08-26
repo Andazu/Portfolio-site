@@ -23,7 +23,7 @@ const Home = () => {
           training and passion for technology.
         </p>
         <div className="">
-          <Link to="work" smooth={true} duration={500} offset={-80}>
+          <Link to="work" smooth={true} duration={500} offset={400}>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
               View Work
               <span className="">

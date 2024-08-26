@@ -5,6 +5,12 @@ import sw4 from "../assets/sw4.png";
 import sw3 from "../assets/sw3.png";
 import sw2 from "../assets/sw2.png";
 import sw1 from "../assets/sw1.png";
+import sw1Doc from "../assets/SW1.pdf";
+import sw2Doc from "../assets/SW2.pdf";
+import sw3Doc from "../assets/SW3.pdf";
+import sw4Doc from "../assets/SW4.pdf";
+import sw5Doc from "../assets/SW5.pdf";
+import sw6Doc from "../assets/SW6.pdf";
 
 const Work = () => {
   return (
@@ -28,17 +34,17 @@ const Work = () => {
         <div className="justify-center w-full h-full pt-20">
           <div className="max-w-[1200px] mx-auto">
             <div className="slide flex flex-col h-full py-6">
-              <div className="w-full">
+              <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   Ekstra Bladet Recommender Project
                 </p>
               </div>
-              <div className="flex flex-col md:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
                 <img
                   src={sw6}
-                  className="max-h-[35svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left pl-12 w-1/2 max-h-72">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2024
                   </p>
@@ -51,29 +57,39 @@ const Work = () => {
                     users on an overhauled mobile application.
                   </p>
                   <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    <a
+                      href={sw6Doc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300 text-center"
+                    >
                       Documentation
-                    </button>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    </a>
+                    <a
+                      href="https://github.com/benceisonline/AAU-Project-6-Frontend-2024"
+                      target="_blank"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300"
+                    >
                       Repository
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
             {/* Project 5 */}
-            <div className="slide flex flex-col h-full py-6">
-              <div className="w-full">
+            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+              <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   The Educado Initiative
                 </p>
               </div>
-              <div className="flex flex-col md:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
                 <img
                   src={sw5}
-                  className="max-h-[35svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left pl-12 w-1/2 max-h-72">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-28 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Fall 2023
                   </p>
@@ -87,29 +103,39 @@ const Work = () => {
                     by the United Nations Development Programme (UNDP).
                   </p>
                   <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    <a
+                      href={sw5Doc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300 text-center"
+                    >
                       Documentation
-                    </button>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    </a>
+                    <a
+                      href="https://github.com/Educado-App/"
+                      target="_blank"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300"
+                    >
                       Repository
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
             {/* Project 4 */}
-            <div className="slide flex flex-col h-full py-6">
-              <div className="w-full">
+            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+              <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   Language Development, Assembly 6502
                 </p>
               </div>
-              <div className="flex flex-col md:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
                 <img
                   src={sw4}
-                  className="max-h-[35svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left pl-12 w-1/2 max-h-72">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2023
                   </p>
@@ -123,29 +149,39 @@ const Work = () => {
                     analysis, semantic analysis, and code generation.
                   </p>
                   <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    <a
+                      href={sw4Doc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300 text-center"
+                    >
                       Documentation
-                    </button>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    </a>
+                    <a
+                      href="https://github.com/Mafusn/SW4"
+                      target="_blank"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300"
+                    >
                       Repository
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
             {/* Project 3 */}
-            <div className="slide flex flex-col h-full py-6">
-              <div className="w-full">
+            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+              <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   Task Management Software Solution
                 </p>
               </div>
-              <div className="flex flex-col md:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
                 <img
                   src={sw3}
-                  className="max-h-[35svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left pl-12 w-1/2 max-h-72">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Fall 2022
                   </p>
@@ -154,32 +190,42 @@ const Work = () => {
                     and model their problem domain (i.e., UML). Developed an
                     object‑oriented solution to optimize their task management.
                     The application is primarily written in Java and relies on a
-                    MongoDB database.
+                    relational database (SQLite).
                   </p>
                   <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    <a
+                      href={sw3Doc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300 text-center"
+                    >
                       Documentation
-                    </button>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    </a>
+                    <a
+                      href="https://github.com/benceisonline/AAU-Project-3-2022"
+                      target="_blank"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300"
+                    >
                       Repository
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
             {/* Project 2 */}
-            <div className="slide flex flex-col h-full py-6">
-              <div className="w-full">
+            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+              <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
                   Smart Device Management
                 </p>
               </div>
-              <div className="flex flex-col md:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
                 <img
                   src={sw2}
-                  className="max-h-[28svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="max-h-[25svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left pl-12 w-1/2 max-h-72">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2022
                   </p>
@@ -187,48 +233,67 @@ const Work = () => {
                     Created a proof of concept for a web page, which was a
                     management platform that was designed to allow the
                     simulation of several different, otherwise unrelated smart
-                    devices bei ng managed and controlled from one central
-                    location while providi ng relevant information
+                    devices being managed and controlled from one central
+                    location while providing relevant information.
                   </p>
                   <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    <a
+                      href={sw2Doc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300 text-center"
+                    >
                       Documentation
-                    </button>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    </a>
+                    <a
+                      href="https://github.com/mua105310/P2"
+                      target="_blank"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300"
+                    >
                       Repository
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
             {/* Project 1 */}
-            <div className="slide flex flex-col h-full py-6">
-              <div className="w-full">
+            <div className="slide flex flex-col h-full py-6 pt-96 lg:pt-20">
+              <div className="w-full pb-8 lg:pb-8">
                 <p className="text-4xl font-bold text-center text-gray-300">
-                  A digital fridge and recipe generator written in C
+                  A Digital Fridge and Recipe Generator Written in C
                 </p>
               </div>
-              <div className="flex flex-col md:flex-row justify-between items-center h-[45vh] px-24">
+              <div className="flex flex-col lg:flex-row justify-between items-center h-[45vh] px-24">
                 <img
                   src={sw1}
-                  className="max-h-[35svh] object-cover hover:scale-105 duration-500 rounded-md"
+                  className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left pl-12 w-1/2 max-h-72">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Fall 2021
                   </p>
                   <p className="pt-6">
                     This product runs as a command-line application, storing the
-                    users ingredients locally and using to generate recipes in
+                    users ingredients locally and uses it to generate recipes in
                     order to reduce their waste of food.
                   </p>
                   <div className="flex flex-row p-8 justify-center w-full h-full space-x-20">
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    <a
+                      href={sw1Doc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300 text-center"
+                    >
                       Documentation
-                    </button>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4B9146] border-[#4B9146] duration-300">
+                    </a>
+                    <a
+                      href="https://github.com/samsonxx/p1v2"
+                      target="_blank"
+                      className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-[#4B9146] border-[#4B9146] duration-300"
+                    >
                       Repository
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

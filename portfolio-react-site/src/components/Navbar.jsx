@@ -31,7 +31,6 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            offset={-80}
           >
             Home
           </Link>
@@ -42,7 +41,6 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={500}
-            offset={-60}
           >
             About
           </Link>
@@ -53,7 +51,6 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            offset={-50}
           >
             Skills
           </Link>
@@ -64,7 +61,7 @@ const Navbar = () => {
             to="work"
             smooth={true}
             duration={500}
-            offset={-20}
+            offset={400}
           >
             Work
           </Link>
@@ -75,7 +72,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            offset={-20}
+            offset={400}
           >
             Contact
           </Link>
