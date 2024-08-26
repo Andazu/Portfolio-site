@@ -44,7 +44,7 @@ const Work = () => {
                   src={sw6}
                   className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-28 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2024
                   </p>
@@ -135,7 +135,7 @@ const Work = () => {
                   src={sw4}
                   className="max-h-[40svh] object-cover hover:scale-105 duration-500 rounded-md"
                 />
-                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-20 lg:pt-10 justify-center">
+                <div className="flex flex-col text-left lg:pl-12 max-w-[550px] lg:max-w-[400px] max-h-72 pt-28 lg:pt-10 justify-center">
                   <p className="border-l-4 pl-2 text-2xl font-bold text-gray-300 border-[#72DE6A]">
                     Spring 2023
                   </p>
